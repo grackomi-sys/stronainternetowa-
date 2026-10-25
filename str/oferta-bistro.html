@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praca w Bistro "Zielony Młyn"</title>
+    <link rel="stylesheet" href="bistro.css">
+</head>
+<body>
+
+    <nav class="topbar">
+        <span class="logo">🌿 Zielony Młyn</span>
+        <div class="links">
+            <a href="#stanowiska">Stanowiska</a>
+            <a href="#benefity">Benefity</a>
+            <a href="#jak">Jak aplikować</a>
+            <a href="#aplikuj" class="btn-small">Aplikuj</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <span class="badge">Rekrutacja otwarta</span>
+            <h1>Gotuj, obsługuj, twórz z nami smaki Wielkopolski</h1>
+            <p>Bistro "Zielony Młyn" to lokalne miejsce z sezonową kuchnią i świetnym zespołem. Szukamy ludzi z pasją do jedzenia i kontaktu z gośćmi.</p>
+            <a href="#aplikuj" class="btn">Dołącz do zespołu</a>
+        </div>
+        <div class="hero-stats">
+            <div><strong>12</strong><span>osób w zespole</span></div>
+            <div><strong>4,8</strong><span>ocena gości</span></div>
+            <div><strong>2019</strong><span>rok założenia</span></div>
+        </div>
+    </section>
+
+    <div class="layout">
+
+        <div class="content">
+
+            <section id="stanowiska" class="block">
+                <h2>Otwarte stanowiska</h2>
+                <article class="job">
+                    <div class="job-icon">👨‍🍳</div>
+                    <div>
+                        <h3>Kucharz / Kucharka</h3>
+                        <p>Przygotowywanie dań z sezonowych produktów, dbanie o jakość i czystość stanowiska. Mile widziane doświadczenie w kuchni polskiej.</p>
+                        <span class="tag">Pełny etat</span> <span class="tag">od 6 500 zł brutto</span>
+                    </div>
+                </article>
+                <article class="job">
+                    <div class="job-icon">🍽️</div>
+                    <div>
+                        <h3>Kelner / Kelnerka</h3>
+                        <p>Obsługa gości, doradztwo w wyborze dań i win, praca z systemem kasowym.</p>
+                        <span class="tag">Pełny / pół etatu</span> <span class="tag">+ napiwki</span>
+                    </div>
+                </article>
+                <article class="job">
+                    <div class="job-icon">☕</div>
+                    <div>
+                        <h3>Barista</h3>
+                        <p>Przygotowywanie kawy specialty, deserów oraz obsługa baru kawowego w godzinach porannych.</p>
+                        <span class="tag">Zmiany poranne</span> <span class="tag">Szkolenie na start</span>
+                    </div>
+                </article>
+            </section>
+
+            <section id="benefity" class="block">
+                <h2>Dlaczego warto?</h2>
+                <div class="benefits">
+                    <div>🍲 Posiłki pracownicze gratis</div>
+                    <div>📅 Grafik ustalany z 3-tygodniowym wyprzedzeniem</div>
+                    <div>🎓 Kursy kulinarne i barista</div>
+                    <div>💸 Premie kwartalne</div>
+                    <div>🏃 Karta sportowa</div>
+                    <div>🎉 Integracje i wyjazdy zespołowe</div>
+                </div>
+            </section>
+
+            <section id="jak" class="block">
+                <h2>Jak wygląda rekrutacja?</h2>
+                <ol class="timeline">
+                    <li><strong>Wyślij formularz</strong><br>Wypełnij krótkie zgłoszenie obok.</li>
+                    <li><strong>Rozmowa telefoniczna</strong><br>Odezwiemy się w ciągu 3 dni roboczych.</li>
+                    <li><strong>Dzień próbny</strong><br>Poznajesz zespół i kuchnię – płatny.</li>
+                    <li><strong>Oferta i start</strong><br>Umowa i szkolenie wdrożeniowe.</li>
+                </ol>
+            </section>
+
+        </div>
+
+        <aside class="sidebar" id="aplikuj">
+            <h2>Aplikuj teraz</h2>
+            <form action="https://formsubmit.co/informatykcmg@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Nowa aplikacja - Bistro Zielony Młyn">
+                <input type="hidden" name="_captcha" value="false">
+
+                <label for="name">Imię i nazwisko *</label>
+                <input type="text" id="name" name="Imię i Nazwisko" required placeholder="Anna Nowak">
+
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="Email" required placeholder="anna@example.com">
+
+               
+
+                <label for="position">Stanowisko *</label>
+                <select id="position" name="Stanowisko" required>
+                    <option value="Kucharz">Kucharz / Kucharka</option>
+                    <option value="Kelner">Kelner / Kelnerka</option>
+                    <option value="Barista">Barista</option>
+                </select>
+
+                <label for="msg">Kilka słów o Tobie</label>
+                <textarea id="msg" name="Wiadomosc" rows="4" placeholder="Doświadczenie, dostępność..."></textarea>
+
+                <button type="submit">Wyślij zgłoszenie</button>
+            </form>
+        </aside>
+
+    </div>
+
+    <footer>
+        <p>Bistro "Zielony Młyn" | ul. Młyńska 5 | <a href="mailto:informatykcmg@gmail.com">informatykcmg@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
